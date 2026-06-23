@@ -14,6 +14,8 @@ def main():
 
     app.add_handler(CommandHandler("start", start))
 
+    app.run_polling()
+
 
 if __name__ == "__main__":
     main()
