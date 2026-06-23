@@ -15,8 +15,5 @@ def main():
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandl
 
-
-if __name__ == "__main__":
-    main()
-    
-    
+    if __name__ == "__main__":
+       main()
