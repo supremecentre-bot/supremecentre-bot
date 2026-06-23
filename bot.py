@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 TOKEN =8732867356:AAGWbVLsuUIu5_sS_1TFB1W3ikaUaWLjacQ
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Бот работает 🚀")
+    await update.message.reply_text
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Команды: /start /help")
@@ -18,4 +18,4 @@ def main():
     app.run_polling()
 
 if __name__ == "__main__":
-    main()
+    
