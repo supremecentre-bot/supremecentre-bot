@@ -13,9 +13,7 @@ def main():
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CommandHandler("help", help_command))
-
-    app.run_polling()
+    app.add_handler(CommandHandl
 
 
 if __name__ == "__main__":
