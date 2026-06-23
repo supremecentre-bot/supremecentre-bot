@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("8732867356:AAGWbVLsuUIu5_sS_1TFB1W3ikaUaWLjacQ")
+TOKEN ="8732867356:AAGWbVLsuUIu5_sS_1TFB1W3ikaUaWLjacQ"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Бот работает 🚀")
